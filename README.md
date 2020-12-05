@@ -2,7 +2,7 @@
 
 ![Generic badge](https://img.shields.io/badge/HTML-5-f06529.svg) ![Generic badge](https://img.shields.io/badge/CSS-3-2965f1.svg) ![Generic badge](https://img.shields.io/badge/Bootstrap-v4.5.3-563d7c.svg) ![Generic badge](https://img.shields.io/badge/Font_Awesome-v4.7.0-099268.svg) ![Generic badge](https://img.shields.io/badge/Editor-VS_Code-0078d7.svg) ![Generic badge](https://img.shields.io/badge/UI-responsive-success.svg) ![Generic badge](https://img.shields.io/badge/Project-design_only-red.svg)
 
-Preview available [here](https://jakubpawlina.github.io/ajgrusza-landing-page/).
+Preview available [here](https://jakubpawlina.github.io/aygrusha/).
 
 ## Description
 School project for Russian language lessons. Apple-style landing page design for a non-existent smartphone - Айгруша 12 Pro.
