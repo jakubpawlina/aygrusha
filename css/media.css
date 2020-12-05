@@ -1,0 +1,150 @@
+@media only screen and (max-width: 1200px)
+{
+	.block-h h4
+	{
+		font-size: 2rem;
+	}
+}
+
+@media only screen and (max-width: 1000px)
+{
+	.container-full-dark
+	{
+		flex-direction: column;
+	}
+	.card
+	{
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+	}
+	.card-smaller
+	{
+		width: 22rem;
+	}
+	.card-bigger
+	{
+		width: 28rem;
+	}
+	.block
+	{
+		width: 100% !important;
+	}
+	.block-h h4
+	{
+		font-size: 4rem;
+	}
+	.block2
+	{
+		height: 400px;
+		order: 1;
+	}
+	.block1
+	{
+		order: 2;
+	}
+	.block3
+	{
+		height: 400px;
+	}
+	.block6
+	{
+		height: 400px;
+		order: 5;
+	}
+	.block5
+	{
+		order: 6;
+	}
+}
+
+@media only screen and (max-width: 767px)
+{
+	.flex-img h2
+	{
+		font-size: 3rem !important;
+	}
+	.flex-img h4
+	{
+		font-size: 2.6rem !important;
+	}
+	.flex-img h5
+	{
+		font-size: 1.4rem !important;
+	}
+}
+
+@media only screen and (max-width: 770px)
+{
+	.block-h h4
+	{
+		font-size: 3rem;
+	}
+}
+
+@media only screen and (max-width: 550px)
+{
+	.block-h h4
+	{
+		font-size: 2rem;
+	}
+}
+
+@media only screen and (max-width: 500px)
+{
+	.block-h h4
+	{
+		word-break: break-all;
+	}
+	.light-container h4
+	{
+		font-size: 3rem !important;
+	}
+	.container-full-dark
+	{
+		height: 1450px;
+	}
+	.cards-container-2
+	{
+		height: 1250px;
+	}
+	.card-smaller
+	{
+		width: 80vw !important;
+	}
+	.card-bigger
+	{
+		width: 80vw !important;
+	}
+	.block
+	{
+		height: 300px;
+	}
+	.block-img
+	{
+		height: 300px;
+	}
+	.light-container
+	{
+		height: 600px;
+	}
+}
+
+@media only screen and (max-width: 350px)
+{
+	.container-full-dark
+	{
+		height: 1300px;
+	}
+	.cards-container-2
+	{
+		height: 1100px;
+	}
+}
+
+@media only screen and (max-width: 300px)
+{
+	.light-container h4
+	{
+		font-size: 2rem !important;
+	}
+}

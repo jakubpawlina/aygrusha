@@ -1,0 +1,293 @@
+/* Main */
+
+:root
+{
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	background-color: #a4a4a4;
+}
+
+div
+{
+	overflow-x: hidden;
+}
+
+.white-link
+{
+	color: white;
+}
+
+.white-link:hover
+{
+	color: white;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar
+{
+  width: 10px;
+}
+
+::-webkit-scrollbar-track
+{
+  background: #282828;
+}
+
+::-webkit-scrollbar-thumb
+{
+  background: #ccc;
+}
+
+::-webkit-scrollbar-thumb:hover
+{
+  background: #ddd;
+}
+
+/* Navbar */
+
+.navbar-blur
+{
+  background-color: rgba(0, 0, 0, 0.7);
+  font-family: sans-serif;
+	-webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+	width: 100%;
+}
+
+/* Notification */
+
+.notification
+{
+	width: 100%;
+	margin-top: 3.5rem;
+	padding: 0.5rem;
+	background-color: #f54242;
+	color: white;
+	text-align: center;
+}
+
+/* Images containers */
+
+.container-img
+{
+	height: 80vh;
+	width: 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	overflow-x: hidden;
+}
+
+.container-img-1
+{
+	background-image: url(../img/main-bg.jpg);
+}
+
+.container-img-2
+{
+	background-image: url(../img/style.jpg);
+}
+
+.container-img-3
+{
+	background-image: url(../img/gift.jpg);
+}
+
+.container-img-4
+{
+	background-image: url(../img/desk.jpg);
+}
+
+.flex-img
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-shadow: 0.5rem 0.5rem 1rem #000;
+	text-align: center;
+	padding: 2rem;
+}
+
+.flex-img h1
+{
+	font-size: 1.6rem;
+	font-weight: 600;
+}
+
+.flex-img h2
+{
+	font-size: 4rem;
+	font-weight: 600;
+}
+
+.flex-img h3
+{
+	font-size: 1.6rem;
+}
+
+.flex-img h4
+{
+	font-size: 6rem;
+	font-weight: 600;
+}
+
+.flex-img h5
+{
+	font-size: 2rem;
+}
+
+.flex-img a .btn
+{
+	margin-top: 2rem;
+	border-radius: 2rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	font-size: 1.2rem;
+	text-shadow: none;
+}
+
+/* Dark container with cards */
+
+.container-full-dark
+{
+	width: 100%;
+	background-color: #000;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 6rem;
+}
+
+.card
+{
+	text-align: center;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+.card-smaller
+{
+	width: 24rem;
+}
+
+.card-bigger
+{
+	width: 30rem;
+}
+
+/* Blocks */
+
+.blocks
+{
+	background-color: #000;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+	overflow: hidden;
+}
+
+.block
+{
+	width: 50%;
+	height: 580px;
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-position: center center;
+  background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+
+.block-black
+{
+	background-color: #000;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: white;
+}
+
+.block1
+{
+	background-image: url(../img/water.jpg);
+}
+
+.block3
+{
+	order: 3;
+}
+
+.block4
+{
+	background-image: url(../img/face-girl.jpg);
+	order: 4;
+}
+
+.block5
+{
+	background-image: url(../img/trade.jpg);
+	order: 5;
+}
+
+.block6
+{
+	order: 6;
+}
+
+.block-h h4
+{
+	font-size: 3rem;
+	font-weight: bold;
+}
+
+/* Light container with text */
+
+.light-container
+{
+	width: 100%;
+	height: 800px;
+	background-color: #efefef;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 6rem;
+	color: #000;
+	text-align: center;
+}
+
+.light-container h4
+{
+	font-weight: bold;
+	font-size: 5rem;
+	margin: 2rem;
+}
+
+/* Footer */
+
+.footer
+{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background-color: #000;
+	color: #fff;
+	font-size: 1rem;
+}
